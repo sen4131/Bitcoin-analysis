@@ -28,7 +28,7 @@ Content
     library("robust")
   
   #import data from local dir
-    datadump <- read_excel("C:/Users/Sen/Downloads/DS 633 (Statistics)/datadump.xlsx")
+    datadump <- read_excel("./datadump.xlsx")
     #View(datadump)
   
   #convert to dataframe without na's
